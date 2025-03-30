@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiblioTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="header-inner-content">
+            <h1 class="logo">Biblio<span>Tech</span></h1>
+            <nav>
+                <ul>
+                    <li><button>Livros</button></li>
+                    <li><button>Sobre</button></li>
+                    <li><button>Contato</button></li>
+                </ul>
+            </nav>
+            <div class="nav-icon-container">
+                <div class="cart-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                    <span class="cart-count">0</span>
+                </div>
+                <button class="menu-button" aria-label="Toggle menu">
+                    <div class="menu-icon-bar"></div>
+                    <div class="menu-icon-bar"></div>
+                    <div class="menu-icon-bar"></div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="menu-overlay"></div>
+
+    <header>
+        <div class="header-content">
+            <div class="header-text">
+                <h1>Conecte-se<span> com a Leitura</span></h1>
+                <p>Descubra os livros mais aguardados do mês! Nossos lançamentos trazem histórias envolventes, 
+                personagens cativantes e aventuras emocionantes que vão conquistar seu coração.</p>
+                <button>Explorar Catálogo →</button>
+            </div>
+            <div class="header-image">
+                <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1974&auto=format&fit=crop" 
+                     alt="Livros empilhados">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="featured-books">
+            <div class="books-grid">
+                <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=687&auto=format&fit=crop" alt="Livro 1">
+                <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=687&auto=format&fit=crop" alt="Livro 2">
+                <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1374&auto=format&fit=crop" alt="Livro 3">
+            </div>
+        </div>
+
+        <div class="new-releases">
+            <h1>LANÇAMENTOS</h1>
+            <div class="title-underline"></div>
+            
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=687&auto=format&fit=crop" 
+                             alt="As coisas que você só vê quando desacelera">
+                        <button class="buy-now">Comprar Agora</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>As coisas que você só vê quando desacelera</h3>
+                        <p class="author">Haemin Sunim</p>
+                        <div class="price-cart">
+                            <p class="price">R$ 34,00</p>
+                            <button class="cart-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?q=80&w=687&auto=format&fit=crop" 
+                             alt="A coragem de ser imperfeito">
+                        <button class="buy-now">Comprar Agora</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>A coragem de ser imperfeito</h3>
+                        <p class="author">Brené Brown</p>
+                        <div class="price-cart">
+                            <p class="price">R$ 34,93</p>
+                            <button class="cart-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?q=80&w=1374&auto=format&fit=crop" 
+                             alt="O diário perdido de Gravity Falls">
+                        <button class="buy-now">Comprar Agora</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>O diário perdido de Gravity Falls</h3>
+                        <p class="author">Alex Hirsch</p>
+                        <div class="price-cart">
+                            <p class="price">R$ 63,20</p>
+                            <button class="cart-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?q=80&w=1974&auto=format&fit=crop" 
+                             alt="Amar e ser livre">
+                        <button class="buy-now">Comprar Agora</button>
+                    </div>
+                    <div class="product-info">
+                        <h3>Amar e ser livre</h3>
+                        <p class="author">Sri Prem Baba</p>
+                        <div class="price-cart">
+                            <p class="price">R$ 36,90</p>
+                            <button class="cart-button">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="explore-section">
+            <div class="explore-content">
+                <div class="explore-image">
+                    <img src="https://images.unsplash.com/photo-1524578271613-d550eacf6090?q=80&w=1470&auto=format&fit=crop" 
+                         alt="Livros em prateleira">
+                </div>
+                <div class="explore-text">
+                    <h1>Explore Nossa<span> Biblioteca</span></h1>
+                    <p>Nossa biblioteca oferece uma vasta coleção de livros para todos os gostos. 
+                    De clássicos atemporais a best-sellers contemporâneos, temos algo especial 
+                    para cada leitor.</p>
+                    <button>Explorar →</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="testimonials">
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <p class="quote">"</p>
+                    <p class="testimonial-text">Excelente seleção de livros! Encontrei exatamente o que procurava e o atendimento foi impecável. Recomendo fortemente para todos os amantes da leitura.</p>
+                    <p class="rating">★★★★★</p>
+                    <p class="author">Maria Silva</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="quote">"</p>
+                    <p class="testimonial-text">A BiblioTech revolucionou minha forma de comprar livros. O site é intuitivo, as recomendações são precisas e a entrega é sempre pontual. Melhor livraria online!</p>
+                    <p class="rating">★★★★★</p>
+                    <p class="author">João Santos</p>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="quote">"</p>
+                    <p class="testimonial-text">Ótimos preços e uma variedade incrível de títulos. Além disso, o programa de fidelidade oferece benefícios realmente vantajosos. Virei cliente fiel!</p>
+                    <p class="rating">★★★★★</p>
+                    <p class="author">Ana Oliveira</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <p class="footer-title">Baixe nosso APP</p>
+                <p class="footer-subtitle">Disponível para iOS e Android</p>
+                <div class="store-buttons">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
+                         alt="iOS Store">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+                         alt="Play Store">
+                </div>
+            </div>
+            <div class="footer-logo">
+                <h1 class="logo">Biblio<span>Tech</span></h1>
+            </div>
+            <div class="footer-links">
+                <h2>Links Úteis</h2>
+                <ul>
+                    <li>Sobre nós</li>
+                    <li>Contato</li>
+                    <li>Termos de uso</li>
+                    <li>Políticas de privacidade</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2024 - BiblioTech - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
